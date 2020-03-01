@@ -1,0 +1,56 @@
+{
+  "name": "gatsby-starter-hello-world",
+  "private": true,
+  "description": "A simplified bare-bones starter for Gatsby",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.9.1",
+    "@material-ui/styles": "^4.9.0",
+    "availity-reactstrap-validation": "^2.6.1",
+    "babel-plugin-styled-components": "^1.10.7",
+    "bootstrap": "^4.4.1",
+    "es6-promise": "^4.2.8",
+    "gatsby": "^2.19.7",
+    "gatsby-image": "^2.2.40",
+    "gatsby-plugin-htaccess": "^1.4.0",
+    "gatsby-plugin-material-ui": "^2.1.6",
+    "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
+    "gatsby-plugin-styled-components": "^3.1.19",
+    "google-map-react": "^1.1.6",
+    "jquery": "^3.4.1",
+    "local-storage": "^2.0.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-autosuggest": "^9.4.3",
+    "react-bootstrap": "^1.0.0-beta.16",
+    "react-dom": "^16.12.0",
+    "react-layer-stack": "^4.2.1",
+    "react-responsive-modal": "^4.0.1",
+    "react-select": "^3.0.8",
+    "reactstrap": "^8.4.1",
+    "rodal": "^1.8.1",
+    "styled-components": "^5.0.1",
+    "styled-react-modal": "^2.0.0",
+    "sweetalert": "^2.1.2"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
